@@ -43,7 +43,7 @@ ul{
     background-color: white;
     padding:0 2rem;
     height: 0rem;
-    min-height: 40vh;
+    min-height: 100vh;
     overflow: hidden;
 }
 .nav .nav-menu{
@@ -83,3 +83,10 @@ ul{
 .nav .social i:hover{
     color: #a1c4cf;
 }
+/* Viewport less than or equal to 750px */
+@media(max-width:750px){
+    .nav .nav-menu, .nav .nav-items{
+       flex-direction: column;
+    }
+}
+/* Viewport less than or equal to 750px */

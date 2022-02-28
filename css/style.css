@@ -10,8 +10,11 @@ a{
 .flex-row{
     display: flex;
     flex-direction: row;
+    flex: wrap;
 }
-
+ul{
+    list-style: none;
+}
 /* Navbar */
 .nav{
     background-color: white;
@@ -23,7 +26,21 @@ a{
 .nav .nav-menu{
     justify-content: space-between;
 }
-.nav .nav-brand a{
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+.nav .nav-brand a {
     font-size: 1.6rem;
     padding: 1rem 0;
+    display: block;
+}
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+.nav .social{
+    padding: 1.4rem 0;
 }

@@ -103,6 +103,25 @@ ul{
 .nav .social i:hover{
     color: #a1c4cf;
 }
+/* Main content */
+/* Site title */
+main .site-title{
+    background-image: url('../Asset/background-image.jpeg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+main .site-title h1,h3{
+    margin: 3rem;
+}
+/* Site title */
+/* Main content */
 /* Viewport less than or equal to 750px */
 @media(max-width:750px){
     .nav .nav-menu, .nav .nav-items{

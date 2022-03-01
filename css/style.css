@@ -66,6 +66,9 @@ ul{
     font-size: 1.4rem;
     color: var(--text-gray);
 }
+.collapse{
+    height: 20rem;
+}
 .nav .nav-items{
     display: flex;
     margin: 0;

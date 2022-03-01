@@ -45,6 +45,7 @@ ul{
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 .nav .nav-menu{
     justify-content: space-between;
@@ -67,7 +68,7 @@ ul{
     color: var(--text-gray);
 }
 .collapse{
-    height: 20rem;
+    height: 30rem;
 }
 .nav .nav-items{
     display: flex;

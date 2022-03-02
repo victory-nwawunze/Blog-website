@@ -240,6 +240,13 @@ main .site-content .post-content>.post-image .img{
 main .site-content .post-content>.post-image .img:hover{
 transform: scale(1.3);
 }
+main .site-content .post-content>.post-image .post-info span{
+    margin: 0.5rem;
+}
+main .post-content .post-title a{
+    font-family: var(--Anton);
+    font-size: 1.5rem;
+}
 /* Site content */
 /* Blog Carousel */
 /* Site title */

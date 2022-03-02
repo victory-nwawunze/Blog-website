@@ -66,6 +66,10 @@ span{
 .text-gray{
     color: var(--text-gray);
 }
+p{
+    font-family: var(--Lexend);
+    color: var(--text-light);
+}
 /* Navbar */
 .nav{
     background-color: white;
@@ -246,6 +250,11 @@ main .site-content .post-content>.post-image .post-info span{
 main .post-content .post-title a{
     font-family: var(--Anton);
     font-size: 1.5rem;
+}
+.site-content .post-content .post-title .post-btn{
+    border-radius: 0;
+    padding: .7rem 1.5rem;
+    background: var(--sky);
 }
 /* Site content */
 /* Blog Carousel */

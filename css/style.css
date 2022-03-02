@@ -284,6 +284,22 @@ main .post-content .post-title a{
     display: flex;
     justify-content: space-between;
 }
+.site-content>.sidebar .category-list .list-items a{
+    color: black;
+}
+.site-content .sidebar .popular-post .post-content{
+    padding: 1rem 0;
+}
+.site-content .sidebar .popular-post h2{
+    padding-top: 8rem;
+}
+.site-content .sidebar .popular-post .post-info{
+    padding: .4rem .1rem !important;
+    bottom: 0 !important;
+    left: 1rem !important;
+    border-radius: 0rem !important;
+    background: white !important;
+}
 /* Sidebar */
 /* Site content */
 /* Blog Carousel */

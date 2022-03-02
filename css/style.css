@@ -296,9 +296,12 @@ main .post-content .post-title a{
 .site-content .sidebar .popular-post .post-info{
     padding: .4rem .1rem !important;
     bottom: 0 !important;
-    left: 1rem !important;
+    left: 1.5rem !important;
     border-radius: 0rem !important;
     background: white !important;
+}
+.site-content .sidebar .popular-post .post-title a{
+    font-size: 1rem;
 }
 /* Sidebar */
 /* Site content */

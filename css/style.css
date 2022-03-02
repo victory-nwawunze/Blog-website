@@ -57,6 +57,12 @@ button.btn{
     font-family: var(--Livvic);
     cursor: pointer;
 }
+span{
+    font-family: var(--Abel);
+}
+.container {
+    margin: 0 5vw;
+}
 /* Navbar */
 .nav{
     background-color: white;
@@ -150,11 +156,12 @@ main .site-title .btn:hover{
 }
 /* Blog Carousel */
 main .blog{
-    background-image: url('../Asset/p-background-img.jpeg');
+    background-image: url('../Asset/wave.svg');
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
     width: 100%;
+    /* background-size: 65%; */
 }
 main .blog .blog-post{
     padding-top: 6rem;
@@ -174,6 +181,9 @@ main .blog-content .btn-blog{
     padding: .7rem 2rem;
     background: var(--sky);
     margin: .5rem;
+}
+main .blog-content span{
+    display: block;
 }
 /* Blog Carousel */
 /* Site title */

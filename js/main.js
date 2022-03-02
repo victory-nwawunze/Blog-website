@@ -10,5 +10,9 @@ $(document).ready(function () {
   });
 
   //   Owl-carousel for blog
-  $(".owl-carousel").owlCarousel();
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+  });
 });

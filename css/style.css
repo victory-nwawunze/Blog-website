@@ -150,11 +150,25 @@ main .site-title .btn:hover{
 }
 /* Blog Carousel */
 main .blog{
-    background-image: url('../Asset/pexels-photo-2341290.jpeg');
+    background-image: url('../Asset/p-background-img.jpeg');
     background-repeat: no-repeat;
     background-position: right;
     height: 100vh;
     width: 100%;
+}
+main .blog .blog-post{
+    padding-top: 6rem;
+}
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+main .blog-content .blog-title{
+    padding: 2rem 0;
 }
 
 /* Blog Carousel */

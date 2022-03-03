@@ -341,7 +341,7 @@ footer.footer .container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.footer.footer .container>div{
+footer.footer .container>div{
     flex-grow: 1;
     flex-basis: 0;
     padding: 3rem .9rem;
@@ -407,6 +407,12 @@ footer.footer .move-up span:hover{
         left: 2rem !important;
         bottom: 1.2rem !important;
         border-radius: 0% !important;
+    }
+    .site-content .sidebar .popular-post .post-info{
+        display: none !important;
+    }
+    footer.footer .container{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 /* Viewport less than or equal to 750px */

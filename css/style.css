@@ -333,7 +333,7 @@ main .post-content .post-title a{
 }
 /* Footer */
 footer.footer{
-    height: 55%;
+    height: 60%;
     background: var(--bg-color);
     position: relative;
 }
@@ -380,6 +380,21 @@ footer.footer .follow div i{
 footer.footer .rights{
     justify-content: center;
     font-family: var(--Josefin);
+}
+footer.footer .rights h4 a{
+    color: var(--white);
+}
+footer.footer .move-up{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+footer.footer .move-up span{
+    color: var(--midnight);
+}
+footer.footer .move-up span:hover{
+    color: var(--white);
+    cursor: pointer;
 }
 /* Sidebar */
 /* Site content */

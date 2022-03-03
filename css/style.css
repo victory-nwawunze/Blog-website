@@ -331,6 +331,24 @@ main .post-content .post-title a{
     border-radius: 3rem;
     margin: .4rem .6rem;
 }
+/* Footer */
+footer.footer{
+    height: 100%;
+    background: var(--bg-color);
+    position: relative;
+}
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.footer.footer .container>div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+footer.footer .container .about-us h2{
+    color: var(--white);
+}
 /* Sidebar */
 /* Site content */
 /* Blog Carousel */

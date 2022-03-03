@@ -1,5 +1,12 @@
 /** @format */
-
+const responsive = {
+  320: {
+    items: 1,
+  },
+  560: {
+    items: 2,
+  },
+};
 $(document).ready(function () {
   $nav = $(".nav");
   $toggleCollapse = $(".toggle-collapse");
@@ -20,5 +27,17 @@ $(document).ready(function () {
       $(".owl-navigation .owl-nav-prev"),
       $(".owl-navigation .owl-nav-next"),
     ],
+    responsive: responsive,
+  });
+
+  //   Click scroll
+  $(".move-up span").click(function () {
+    console.log();
+    $("html, body").animate(
+      {
+        scrollTop: 0,
+      },
+      3000
+    );
   });
 });

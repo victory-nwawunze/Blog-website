@@ -446,5 +446,8 @@ main .blog{
         padding: 0 1.4rem;
         text-align: center;
     }
+    nav .toggle-collapse{
+        width: 80% !important;
+    }
 }
 /* Viewport less than or equal to 750px */

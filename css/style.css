@@ -401,6 +401,15 @@ footer.footer .move-up span:hover{
 /* Blog Carousel */
 /* Site title */
 /* Main content */
+/* Viewport less than or equal to 1130px */
+@media(max-width:1130px) {
+    .site-content .post-content>.post-image .post-info{
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+        border-radius: 0% !important;
+    }
+}
+/* Viewport less than or equal to 750px */
 /* Viewport less than or equal to 750px */
 @media(max-width:750px){
     .nav .nav-menu, .nav .nav-items{

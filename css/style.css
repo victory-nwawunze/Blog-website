@@ -333,7 +333,7 @@ main .post-content .post-title a{
 }
 /* Footer */
 footer.footer{
-    height: 100%;
+    height: 55%;
     background: var(--bg-color);
     position: relative;
 }
@@ -372,6 +372,14 @@ footer.footer .instagram div>img{
     width: 25%;
     height: 50%;
     margin: .3rem .4rem;
+}
+footer.footer .follow div i{
+    color: var(--white);
+    padding: 0 .4rem;
+}
+footer.footer .rights{
+    justify-content: center;
+    font-family: var(--Josefin);
 }
 /* Sidebar */
 /* Site content */

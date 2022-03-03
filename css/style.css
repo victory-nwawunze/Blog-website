@@ -367,6 +367,12 @@ footer.footer .newsletter .form-element span{
     padding: .5rem .7rem;
     cursor: pointer;
 }
+footer.footer .instagram div>img{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
 /* Sidebar */
 /* Site content */
 /* Blog Carousel */
